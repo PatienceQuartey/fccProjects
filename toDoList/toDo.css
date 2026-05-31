@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(0, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 500;
+    text-decoration: underline;
+    word-spacing: 10px;    
+}
+.todo-list{
+    /* border: 2px solid red; */
+    background-color: #FFE3E3;
+    border-radius: 5%;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.the_list{
+    /* border: 2px solid green; */
+    border-radius: 10%;
+    line-height: 2;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #FFC9C9;
+    color: #4A3535;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+.sub-item-link{
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.sub-item-link:link{color: #1B365D;}
+.sub-item-link:hover{
+    text-decoration: underline;
+    color: #004BCE;
+}
+.sub-item-link:visited{
+    color: #E07A5F ;
+    text-decoration: underline;
+}
+.sub-item-link:active{text-decoration: #D0312D;}
+.sub-item-link:focus{
+    color: #B22222;
+    text-decoration: underline;
+}
